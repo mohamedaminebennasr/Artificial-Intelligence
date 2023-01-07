@@ -1,0 +1,30 @@
+#Install Ubuntu 22.04.1 Unantanted using Virtual box (e.g. 7.0.4)
+sudo apt install python3-pip
+pip install --upgrade pip
+#Download anaconda and create Virtual env 
+bash /home/Downloads/Anaconda..
+exit
+#create a virtual env with python 3.9
+conda create -n tensorflow pip python=3.9
+exit
+source activate tensorflow
+pip instal tensorflow
+#Install tensorflow 2.11.0
+pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.11.0-cp36-cp36-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+exit
+#Install and configure Jupyter
+source activate tensorflow
+conda install ipython
+pip install jupyter
+
+#Install python lib jupyter
+source activate tensorflow
+jupyter notebook
+!pip install pandas
+!pip install numpy
+!pip install matplotlib
+
+#Open new terminal
+source activate tensorflow
+jupyter notebook
+#Now you can start implementing your first tensorflow example
